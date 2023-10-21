@@ -2,7 +2,7 @@
 </p>
 
 
-# <a">ACTUALIZACIÓN GRATUITA DE L3MON</a>:
+# <a>ACTUALIZACIÓN GRATUITA DE L3MON</a>:
 - Registro GPS
 - Grabación de micrófono
 - Visualización de contactos
