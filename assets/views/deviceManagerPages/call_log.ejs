@@ -1,0 +1,36 @@
+<div class="ui segment">
+    <div class="ui secondary menu">
+        <div class="right menu">
+            <button onclick="updateButton(this, '0xCL')" class="ui blue button"> <i
+                    class="icon sync"></i>Actualizar</button>
+        </div>
+    </div>
+    <table class="ui celled table">
+        <thead>
+            <tr>
+                <th>Fecha</th>
+                <th>Número de Teléfono</th>
+                <th>Estado</th>
+                <th>Duración</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% pageData.forEach((callData) => { 
+                let date = new Date(parseInt(callData.date));
+                let status = "Sin estado";
+                if(callData.type === 1) status = "Entrante";
+                if(callData.type === 2) status = "Salida";
+                if(callData.type === 3) status = "Perdida";
+                
+            %>
+            <tr>
+                <td class="collapsing"><%= date.toLocaleString('en-GB', { timeZone: 'UTC' }) %></td>
+                <td><a href="?filter=<%= callData.phoneNo %>"><%= callData.phoneNo %></a></td>
+                <td><%= status %></td>
+                <td><%= callData.duration %></td>
+            </tr>
+            <% }) %>
+
+        </tbody>
+    </table>
+</div>
